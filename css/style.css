@@ -1,0 +1,477 @@
+
+:root{
+    --cor-padrao: #000000;
+    --paragrafo-cor:  #565656;
+    --cor-botao: #2639ED;
+    --cor-circulo: #DAE9FF;
+    --texto-botao: #FFFFFF;
+    --texto-autor: #A4A4A4;
+
+    --font-padrao-pagina:'Montserrat', sans-serif;
+    --font-logotipo: 'Inter', sans-serif;
+}
+
+body{
+    font-family: var(--font-padrao-pagina);
+    color: var(--cor-padrao);
+}
+
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* --- Navbar-----*/
+.navegacao{
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.link-nav{
+    margin-left: 45px;
+    margin-top: 2rem;
+    font-family: var(--font-logotipo);
+    font-size: 1rem;
+
+}
+
+
+
+/*---- Seção Produto Digital------*/
+
+.alinhamento-esquerdo-produto-digital{
+    padding-left: 6%;
+}
+
+.secao-produto-digital{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.caixa-texto-produto-digital{
+    justify-content: center;
+    background-image: url(../img/Ellipse\ 85.svg);
+    background-repeat: no-repeat;
+    background-position-x: 110%;
+    background-position-y: 32px;
+    position: relative;
+}
+
+.titulo-logo{
+    font-family: var(--font-logotipo);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.titulo-secao{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.paragrafo-secao{
+    font-size: 1rem;
+    color: var(--paragrafo-cor);
+    margin-top: 3rem;
+    margin-bottom: 3rem ;
+    line-height: 1.5rem;
+}
+
+.botao-produto-digital{
+    background: var(--cor-botao);
+    color: var(--texto-botao);
+    border-radius: 60px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.efeito-background-elipse-p{
+    display: none;
+    background-image: url(../img/Ellipse7X7.svg);
+    background-size: 7px;
+    width:20%;
+    height: 20%;
+    position: absolute;
+    top: 58%;
+    left:5%;   
+}
+
+.caixa-img-produto-digital{
+    margin-top: 2rem;
+    position: relative;
+}
+
+.img-produto-digital{
+    width: 100%;
+    border-radius: 0px 0px 0px 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.retangulo-amarelo{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    z-index: 0;
+}
+
+
+/* --- Seção Our Client ----*/
+
+.secao-cliente{
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.cliente-secao-texto{
+    width: 40%;
+}
+
+.paragrafo-cliente{
+    margin-top: 1.5rem;
+}
+
+.cliente-secao-imagens{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+#letra-g-google{
+    vertical-align:sub;
+}
+
+.vetor-amazon{
+    margin-top: 1.5rem;
+}
+
+.detalhe-logo-amazon{
+    margin-left: 1rem;
+}
+
+/*----- Salvar negócio -----*/
+
+.salvar-negocio{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+
+.secao-salvar-negocio{
+
+    width: 396px;
+}
+
+.img-salvar-topo{
+    position: absolute;
+    z-index: -1;
+    margin-top: -70px;
+    margin-left: -40px;
+}
+
+.organizacao-salvar-negocio{
+
+    display: flex;
+    
+}
+
+.container-geral{
+
+    background-image: url(../img/Rectangle\ 24.svg);
+   
+    background-position-y: 125px;
+    background-repeat: no-repeat;
+    
+    margin-left: 64px;
+}
+
+#container-business{
+    margin-top: 32px;
+}
+
+#container-dev{
+    margin-top: -16px;
+}
+
+#container-financial{
+    margin-top: 32px;
+}
+
+#container-mark{
+    margin-top: -16px;
+}
+
+.container-informacao{
+
+    width: 308px;
+    height: 379px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px #F2F2F2;
+    margin: 0px 0px 0px 16px;
+    background-color: #FFF;
+}
+
+.imagem-informacao{
+    width: 121px;
+    height: 121px;
+}
+
+.img-azul{
+    background-image: url(../img/Rectangle-business.svg);
+}
+
+.img-laranja{
+    background-image: url(../img/Rectangle\ 28.svg);
+}
+
+.img-rosa{
+    background-image: url(../img/Rectangle-Rosa-Develop.svg);
+}
+
+.img-verde{
+    background-image: url(../img/Rectangle-business.svg);
+}
+
+.titulo-rotulo{
+    
+    font-family: var(--font-padrao-pagina);
+    font-size: 24px;
+    font-weight: 4;
+    text-align: center;
+    line-height: 24px;
+    width: 231px;
+}
+
+.subtitulo-rotulo{
+    text-align: center;
+    width: 245px;
+    line-height: 22.4px;
+}
+
+.img-background-salvar-negocio{
+    position: absolute;
+    z-index: -1;
+    margin-bottom: -400px;
+    margin-left: 230px;
+}
+
+
+/*----Seção-video----*/
+
+.secao-video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    position: relative;
+}
+
+.video-img{
+    position: relative;
+    width: 100%;
+}
+
+.imagem-play-video{
+    width: 550px;
+    border-radius: 2rem;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1;
+}
+
+.vetor-play-video{
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    z-index: 2;
+}
+
+.vetor-play-interno{
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    z-index: 1;
+}
+
+.secao-texto-video{
+    position: relative;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.paragrafo-secao-video{
+    margin-top: 2rem;
+}
+
+.retangulo-video{
+  position: absolute;
+  top: 9%;
+  right:-33%;
+  z-index: 0;
+}
+
+.elipse-video{
+   position: absolute;
+   top: 85%;
+   right: 5%;
+   z-index: 0;
+}
+
+/*----- Subscribe ------*/
+
+.subscribe{
+
+    display: flex;
+    align-items:start;
+    justify-content: space-around;
+    background-image: url(../img/Rectangle\ 30.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.Subscribe-Newsletter{
+    position: absolute;
+    padding-top: 72px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: -600px;
+    
+}
+
+.img-background-subscribe{
+    position: absolute;
+    z-index: -1;
+    margin-top: -110px;
+    margin-left: -90px;
+}
+
+.secao-enviar{
+    
+    height: 200px;
+    padding-top: 72px;
+    background-color: #2639ED;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 0px;
+    z-index: 1;
+    right: -355px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 50px;
+}
+
+.input-subscribe{
+
+    position: relative;
+    width: 479px;
+    height: 80px;
+    border-radius: 72px;
+    border: none;
+    margin-top: 8px;
+    z-index: 2;
+    right: 100px;
+    box-shadow: 2px 2px 5px #c9c9c9;
+
+}
+
+input::placeholder{
+    padding-left: 10%;
+}
+
+.botao-enviar{
+
+    width: 188px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    position: absolute;
+    z-index: 3;
+    right: 120px;
+    top: 90px;
+    background: var(--cor-botao);
+    color: var(--texto-botao);
+}
+
+
+/*----- Rodapé -----*/
+
+.rodape{
+    margin-top: 124px;
+}
+
+.comando-footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.texto-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 112px;
+}
+
+.paragrafo-footer{
+    width: 270px;
+}
+
+.imagem-footer{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.logo-Linkedin{
+    position: absolute;
+    top: 15%;
+    left: 32.5%;
+}
+
+.informacoes-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.separa-footer{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    margin-top: 64px;
+}
+
+.link-footer{
+    line-height: 32px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo-final{
+    margin: 16px auto; 
+    color: var(--texto-autor);
+}
+
